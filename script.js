@@ -9,7 +9,7 @@ function sumSliceArray(arr, first, second) {
     if (isNaN(first, second)) {
         throw new Error('input type should be a number');
     };
-    if (first > arr.length || second >= arr.length) {
+    if (first > arr.length || second > arr.length) {
         throw new Error('input number is bigger than arr lenght');
     };
     return arr[first] + arr[second];
